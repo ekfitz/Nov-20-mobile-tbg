@@ -42,31 +42,76 @@ body {
   color: black;
   cursor: pointer;
   text-align: center;
+  transition: top 0.5s;
+}
+
+.text {
+  position: absolute;
+}
+
+.cta {
+  position: absolute;
 }
 
 #menu {
   top: 2%;
   left: 90%;
+  transition-property: transform;
+  transition-duration: 0.5s;
 }
 
 #logo1 {
-  top: 2%;
   left: 3%;
-  font-size: 5em;
   color: white;
+  transition: top, font-size 0.5s;
 }
 
 #nav1 {
-  top: 2%;
   left: 25%;
 }
 
 #nav2 {
-  top: 2%;
   left: 45%;
 }
 
 #nav3 {
-  top: 2%;
   left: 65%;
+}
+
+#t1 {
+  font-size: 3em;
+  width: 90%;
+  top: 40%;
+  left: 5%;
+  text-align: center;
+  color: black;
+  opacity: 0.75;
+  font-family: 'Playfair Display', serif;
+  line-height: 1em;
+}
+
+#t2 {
+  font-size: 0.7em;
+  width: 60%;
+  top: 65%;
+  left: 20%;
+  text-align: center;
+  color: black;
+  opacity: 0.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+#b1 {
+  width: 60%;
+  top: 80%;
+  left: 20%;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 200;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5em;
+  background-color: #FB5012;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
