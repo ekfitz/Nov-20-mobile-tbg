@@ -1,0 +1,231 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: none;
+  background-color: #2C365E;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.page1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  background-color: #748CAB;
+}
+
+.material-icons {
+  position: absolute;
+  color: black;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.logo {
+  position: absolute;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-weight: 700;
+}
+
+.nav {
+  position: absolute;
+  width: 25%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  transition: top 0.5s;
+}
+
+.text {
+  position: absolute;
+}
+
+.cta {
+  position: absolute;
+  width: 60%;
+  left: 20%;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 200;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.page2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  left: 0%;
+}
+
+.circle {
+  position: absolute;
+  width: 40%;
+  left: 30%;
+  border-radius: 50%;
+}
+
+.circle:after {
+  content: "";
+  display: inline-block;
+  padding-bottom: 100%;
+}
+
+.arrow {
+  position: absolute;
+  width: 20%;
+  left: 40%;
+  transform: rotate(90DEG);
+}
+
+.page3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 200%;
+  left: 0%;
+  background-color: #3A405A;
+}
+
+.infographic {
+  position: absolute;
+  width: 90%;
+  top: 30%;
+  left: 5%;
+}
+
+.page4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 300%;
+  left: 0%;
+  background-color: #D1D1D1;
+}
+
+.rocket {
+  position: absolute;
+  width: 100%;
+  top: 63%;
+  left: 0%;
+}
+
+#menu {
+  top: 2%;
+  left: 90%;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+#logo1 {
+  left: 3%;
+  color: white;
+  transition: top 0.5s;
+}
+
+#nav1 {
+  left: 25%;
+}
+
+#nav2 {
+  left: 45%;
+}
+
+#nav3 {
+  left: 65%;
+}
+
+#t1 {
+  font-size: 3em;
+  width: 90%;
+  top: 40%;
+  left: 5%;
+  text-align: center;
+  color: black;
+  opacity: 0.75;
+  font-family: 'Playfair Display', serif;
+  line-height: 1em;
+}
+
+#t2 {
+  font-size: 0.7em;
+  width: 60%;
+  top: 65%;
+  left: 20%;
+  text-align: center;
+  color: black;
+  opacity: 0.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+#b1 {
+  top: 80%;
+  color: white;
+  background-color: #FB5012;
+}
+
+#circle1 {
+  background-color: #8D3B72;
+  top: 10%;
+}
+
+#arrow1 {
+  top: 32%;
+}
+
+#circle2 {
+  background-color: #DDF45B;
+  top: 40%;
+}
+
+#arrow2 {
+  top: 62%;
+}
+
+#circle3 {
+  background-color: #00B9AE;
+  top: 70%;
+}
+
+#b2 {
+  top: 90%;
+  color: white;
+  background-color: #6457A6;
+}
+
+#t3 {
+  font-size: 1.7em;
+  width: 30%;
+  top: 50%;
+  left: 60%;
+  text-align: right;
+  color: white;
+  opacity: 0.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+#t4 {
+  font-size: 1.8em;
+  width: 60%;
+  top: 45%;
+  left: 10%;
+  text-align: left;
+  color: black;
+  opacity: 0.75;
+  font-family: 'Playfair Display', serif;
+  line-height: 1em;
+}
